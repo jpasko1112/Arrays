@@ -42,3 +42,6 @@ puts "unshift () method form : #{in_stock.unshift(true)}\n\n"
 
 puts foods[1]
 
+# Array.rotate returns a new array by rotating Array so that the element at (count) is the first element of the new Array.
+
+puts foods.rotate(2)
