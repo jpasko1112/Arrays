@@ -35,3 +35,10 @@ puts decimals.pop
 # Array unshift() function returns the shifted array with argumented element in place. An additional "true" will be added to the beginning of the  "in_stock" array.
 
 puts "unshift () method form : #{in_stock.unshift(true)}\n\n"
+
+
+# "Index positions" allow you to call specific elements from the called array, coutning begins with "0". So (0=1, 1=2, 2=3 .....etc.)
+# ex. Calling "foods" array "bread" below...
+
+puts foods[1]
+
